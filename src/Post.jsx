@@ -1,5 +1,10 @@
-export function Post() {
+export function Post( props ) {
     return (
-        <p>Post</p>
+        <div>
+            <strong>
+                {props.autor}
+            </strong>
+            <p>{props.content}</p>
+        </div>
     )
 }
