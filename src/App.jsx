@@ -1,5 +1,7 @@
 import { Post } from './Post'
 import { Header } from './componentes/Header'
+import './global.css'
+
 function App() {
 
   return (
