@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types */
+import './Post.css'
+
 export function Post( props ) {
     return (
         <div>
@@ -7,4 +10,5 @@ export function Post( props ) {
             <p>{props.content}</p>
         </div>
     )
+
 }

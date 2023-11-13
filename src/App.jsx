@@ -1,9 +1,10 @@
 import { Post } from './Post'
-
+import { Header } from './componentes/Header'
 function App() {
 
   return (
     <>
+      <Header />
       <h1>Hello World!</h1>
       <Post
         autor="Jorge William"
