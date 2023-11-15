@@ -16,10 +16,22 @@
     align-items: center;
 }
 
+.profile strong {
+    margin-top: 1rem;
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+
 .sidebar footer {
     border-top: 1px solid var(--gray-600);
     margin-top: 1.5rem;
     padding: 1.5rem 2rem 2rem;
+}
+
+.profile span {
+    font-size: 0.675rem;
+    color: var(--gray-400);
+    line-height: 1.6;
 }
 
 .sidebar footer a {
@@ -39,4 +51,24 @@
     justify-content: center;
     gap: 0.5rem;
     transition: color 0.1s, background-color 0.1s;
+    padding-top: 14px;
+
+}
+
+.avatar {
+    /* padding: .10rem; */
+    box-sizing: initial;
+    margin-top: -2rem;
+    height: 3rem;
+    border: solid 4px var(--gray-800);
+    border-radius: 8px;
+    outline: 2px solid var(--green-500);
+    /* border-spacing: 4px
+     */
+}
+
+.sidebar footer a:hover {
+    transition: color 1s, background-color 0.2s;
+    color: var(--white);
+    background-color: var(--green-500)
 }
